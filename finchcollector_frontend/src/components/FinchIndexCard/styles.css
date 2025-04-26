@@ -1,0 +1,41 @@
+/* src/components/FinchIndexCard/styles.css */
+
+.finch-index-card {
+    width: 275px;
+    margin: 10px;
+    border: 2px solid #9c27b0;
+    box-shadow: 0 0 10px rgba(156, 39, 176, 0.5);
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color: #eee;
+    transition: transform 0.3s ease;
+  }
+  
+  .finch-index-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .finch-index-card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .finch-index-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 6px #9c27b0);
+  }
+  
+  .finch-index-card h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #ba68c8;
+  }
+  
+  .finch-index-card p {
+    font-size: 1.4rem;
+    margin: 4px 0;
+    color: #ddd;
+  }
+  

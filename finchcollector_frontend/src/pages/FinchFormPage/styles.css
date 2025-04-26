@@ -1,0 +1,45 @@
+.finch-form-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0e001f;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #6f2da8;
+}
+
+.finch-form-page h1 {
+    color: #b677f2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: darkslateblue;
+}
+
+.btn.submit {
+    background-color: #6f2da8;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
